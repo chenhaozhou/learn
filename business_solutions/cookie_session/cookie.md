@@ -7,6 +7,7 @@
 ## 设置 Cookie
     服务器返回的 http response 的 header 中，通过 Set-Cookie header 头来设置 cookie。
     Cookie 中每一个键值对，都会对应一个 Set-Cookie。
+    Cookie 一般最大 4kb。
     Set-Cookie:<cookie名>=<cookie值>
 ## 使用 Cookie
     浏览器发送 http 请求会将 Cookie 数据放在 request header 中
